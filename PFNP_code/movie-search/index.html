@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Open Movie Database search</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1>Search the Open Movie Database (OMDB)</h1>
+  <form id="movie-search-form">
+    <input type="text" name="query">
+    <button>Search</button>
+  </form>
+
+  <div class="result">
+    <h1 id="title"></h1>
+    <img src="" id="poster" alt="">
+    <ul>
+      <li><span id="year">Year: </span></li>
+      <li><span id="actors">Actors</span></li>
+    </ul>
+  </div>
+
+  <div class="error">
+    Sorry, an error has occurred. Try again.
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
+

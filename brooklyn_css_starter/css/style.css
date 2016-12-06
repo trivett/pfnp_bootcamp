@@ -1,0 +1,15 @@
+
+
+body { 
+	font-size: 12px;
+	line-height: 17px;
+	font-family: "Times New Roman", serif;
+	color: #656565;
+}
+
+.link:hover {
+	color: #20222a;
+} 
+
+
+
