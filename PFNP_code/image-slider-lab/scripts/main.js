@@ -1,3 +1,1 @@
-$('#slideshow').slick({
-  adaptiveHeight: true
-});
+
