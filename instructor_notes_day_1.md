@@ -531,17 +531,40 @@ a {
 }
 ```
 
-
-
-
-
 # Deploy to the web with github pages
 
+Make sure that you have a Github.com account. 
 
+Brief review of git and GitHub. Show the commits to the actual class code repo.
+
+[https://desktop.github.com/](https://desktop.github.com/)
+
+Create a repo on your desktop called <yourgithubaccount>.github.io
+
+In finder, move index.html into that folder that was created.
+
+Look in the github client to see what results. 
+
+Commit to master with a suitable commit message.
+
+Publish.
+
+Look at your github account
+
+Go to <yourgithubaccount>.github.io in your browser.
+
+Holy smokes!
+
+Edit one line of index.html and commit/push.
+
+Move the resume html in there as well. Repeat. 
+
+## Your turn
+
+Move the styles files into the repo and publish to the web.
+
+Congratulations :)
 
 
 
 IF there is more time, introduce Semantic UI
-
-
-
