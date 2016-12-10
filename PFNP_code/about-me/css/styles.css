@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #3C250A;
+}
+
+p, li {
+  font-family: 'Slabo 27px', serif;
+  color: #7B756C;
+}
+
+
+.project {
+  background-color: grey;
+  width: 543px;
+}
+
+body {
+  background: url('../images/abstract-mosaic-background.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header, footer {
+  background-color: #595959;
+  text-align: center;
+  padding: 15px 30px;
+
+}
+
+header img {
+  width: 50%;
+  border-radius: 15px;
+}
+
+.main-content {
+  background-color: #808F85;
+  padding: 10px 0;
+  border-top: 2px solid #CFD11A;
+}
+
+.main-content ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-content ul li {
+  padding: 10px;
+  /*text-align: center;*/
+  display: inline;
+}
+
+a {
+  color: #CFD11A; /*yellow */
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-content p {
+  margin: 10px 40px;
+}
+
+.main-content h2 {
+  text-align: center;
+}
+
+#projects {
+  background-color: #808F85;
+}
+
+.clearfix:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.project {
+  width: 30%;
+  display: inline-block;
+  background-color: #F2E9DC;
+  margin: 1.66%;
+  border-radius: 15px;
+  float: left;
+}
+
+.project h2 {
+  text-align: center;
+}
+
+.project img {
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
