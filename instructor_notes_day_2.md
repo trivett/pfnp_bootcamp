@@ -4,7 +4,7 @@
 
 Warmup: 
 
-CSS warmup folder
+Deployment and git.
 
 45 minutes
 
@@ -482,10 +482,12 @@ Tons of web apps use third-party services like Twitter, Google Maps etc.
 
 First step to work with an API is to look at the docs. RTFM!
 
+# Grand finale, code along of movie search engine 
 
+First, have the students read over the code that is already written. Without running it in your browser, what do you think some of these things do? 
 
+Explore the OMDB api. Look at the options it gives you and what kind of result you can expect. Explain what JSON is.
 
+Work with a partner and explore the jQuery documentation. what does `.show()` `.hide()` and `.on("submit", function …. )`mean in jQuery? What do you think each function that I wrote means? Look at the CSS file included. What is that doing? Why? 
 
-
-
-Grand finale, code along of movie search engine 
+Walk through the anatomy of the entire file. 

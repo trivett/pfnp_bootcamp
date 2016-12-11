@@ -4,9 +4,12 @@ function searchIMDB(query) {
   $.getJSON('http://www.omdbapi.com/', {
     t: query,
     plot: "short",
-    r: 'json'
+    r: 'json' //these are parameters provided by OMDB. See the example URL above
   }, function(omdbData) {
     let results = omdbData;
+    console.log("OMDB Data =>")
+    // debugger //----- we can just jump into the code and 'freeze here to explore'
+    console.log(results);
     if (omdbData.Response == "True"){
       renderMovie(omdbData);
     } else {
@@ -27,7 +30,7 @@ function renderError() {
 
 
 $('#movie-search-form').on('submit', function(event) {
-  event.preventDefault(); // this prevents the page from reloading again -- this is one way that JavaScript lets you perform actions asynchronously
+  event.preventDefault(); // this prevents the page from reloading again
   $('.result').hide();
   searchIMDB(this.query.value);
   this.query.value = '';
