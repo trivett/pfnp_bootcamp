@@ -22,6 +22,8 @@ function renderMovie(data) {
   $('.result').show();
   $('#poster').attr("src", data.Poster);
   $('#title').html(data.Title);
+  $('#year').html(data.Year);
+  $('#actors').html(data.Actors);
 }
 
 function renderError() {

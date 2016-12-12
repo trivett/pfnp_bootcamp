@@ -11,6 +11,18 @@ A = π * r2, where is π is Pi and r is the radius squared
 
 
 function areaOfaCircle(radius){
+  const pi = 3.141952654;
+  let r2 = radius ** 2;
+  let response = pi * r2;
+  return response;
+}
 
 
-}    
+
+
+
+
+
+
+
+
