@@ -93,9 +93,15 @@ These languages all build on the same concepts defined above; the main differenc
 
 In general, anything programmable can be programmed in each of the languages defined above. However, some languages are better suited for certain tasks above others.
 
-For example, to perform web programming on the front-end, you'll want to write JavaScript. This is because all browsers collectively support running javascript within it's environment.
+For example, to perform web programming on the front-end, you'll want to write JavaScript. This is because all browsers collectively support running javascript within it's environment
 
-#### What is web development?
+# Lunch
+
+
+
+
+
+# What is web development?
 
 ------
 
@@ -113,7 +119,7 @@ A web app is more like an iOS or Android app. It holds state, does not refresh i
 
 ------
 
-Depends on the methodology used by team. Typically, there is a UX phase, a Design phase, a Development phase bundled with extensive QA. This was the process used in the consulting firm I used to work in.
+Depends on the methodology used by team. Typically, there is a UX phase, a Design phase, a Development phase bundled with extensive QA. This was the process used in the large company I used to work in.
 
 For a startup, the process is similar, however there is a lot more room for iteration and testing out ideas by putting something up for users to use and deliver feedback.
 
@@ -140,8 +146,6 @@ In order to explore the core concepts of this class and achieve our learning obj
 - Template should work across all screens including (and specifically) mobile
 - Template should be **printer friendly** and take up exactly one page when printed.
 
-Here is an **example**.
-
 
 
 # HTML lesson
@@ -158,6 +162,16 @@ Show them dev tools
 
 look at dev tools in facebook
 
+show them the You Tube trick
+
+
+
+```javascript
+$('video').currentTime = $('video').duration
+```
+
+
+
 Go and change some stuff in the browser's rendered HTML.
 
 ## You do
@@ -166,7 +180,17 @@ Go and change some stuff in the browser's rendered HTML.
 - Make your uncle the king of Thailand. Change the election results. Add some digits to your bank account.
 - Refresh the page and see your dreams melt away.
 
-# HTML Basics
+
+
+This is what I mean by front end or client side. 
+
+
+
+
+
+
+
+# We Do: HTML Elements
 
 
 
@@ -217,6 +241,10 @@ HTML is made of *elements*.
 
 Each little thing is an element.
 
+They can nest to kingdom come if you like
+
+
+
 
 
 <!doctype html> 
@@ -233,7 +261,7 @@ This section contains content that does not show the user things. Typically, we 
 
 <body>
 
-All the magic happens here. All the tags the user interacts with should live in this tag.
+All the magic happens here. All the tags the user sees and interacts with should live in this tag.
 
 
 
@@ -421,40 +449,31 @@ Properties
 
   ​show 
 
-#### Semantic HTML5 Tags
 
-------
-
-Here are some of the main tags that are supported.
-
-**SECTION**: Represents a generic document or application section.
-
-**HEADER**: Represents a group of introductory or navigational aids..
-
-**FOOTER**: Represents a footer for a section and can contain information about the author, copyright information, et cetera.
-
-**NAV**: Represents a section of the document intended for navigation.
-
-**MAIN**: Defines the main content of a document.
-
-**ARTICLE**: Represents an independent piece of content of a document, such as a blog entry or newspaper article
-
-**ASIDE**: Represents a piece of content that is only slightly related to the rest of the page.
 
 Exercise with the About me Code along
 
 Final CSS:
 
 ```css
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 
-h1, h2 {
-  font-family: 'Times New Roman'
 
-  color: #CFD11A;
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #3C250A;
 }
 
 p, li {
-  font-family: 'Times New Roman'
+  font-family: 'Slabo 27px', serif;
+  color: ##3c250a;
+}
+
+
+.project {
+  background-color: grey;
+  width: 543px;
 }
 
 body {
@@ -468,10 +487,10 @@ body {
 }
 
 header, footer {
-  background: #595959;
-  color: #91C499;
-  padding: 15px 30px;
+  background-color: #595959;
   text-align: center;
+  padding: 15px 30px;
+
 }
 
 header img {
@@ -480,7 +499,7 @@ header img {
 }
 
 .main-content {
-  background: #808F85;
+  background-color: #808F85;
   padding: 10px 0;
   border-top: 2px solid #CFD11A;
 }
@@ -488,23 +507,32 @@ header img {
 .main-content ul {
   list-style-type: none;
   padding-left: 0;
-}
-.main-content ul li {
-  padding: 10px;
+  margin: 0 auto;
   text-align: center;
 }
 
-a {
-  color: #CFD11A;
-  text-decoration: none;
+.main-content ul li {
+  padding: 10px;
+  /*text-align: center;*/
+  display: inline;
 }
+
+a {
+  color: #CFD11A; /*yellow */
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .main-content p {
   margin: 10px 40px;
 }
 
+.main-content h2 {
+  text-align: center;
+}
+
 #projects {
-  background: #808F85;
-  margin: 0 auto
+  background-color: #808F85;
 }
 
 .clearfix:after {
@@ -516,7 +544,7 @@ a {
 .project {
   width: 30%;
   display: inline-block;
-  background: #F2E9DC;
+  background-color: #F2E9DC;
   margin: 1.66%;
   border-radius: 15px;
   float: left;
@@ -531,40 +559,4 @@ a {
 }
 ```
 
-# Deploy to the web with github pages
 
-Make sure that you have a Github.com account. 
-
-Brief review of git and GitHub. Show the commits to the actual class code repo.
-
-[https://desktop.github.com/](https://desktop.github.com/)
-
-Create a repo on your desktop called <yourgithubaccount>.github.io
-
-In finder, move index.html into that folder that was created.
-
-Look in the github client to see what results. 
-
-Commit to master with a suitable commit message.
-
-Publish.
-
-Look at your github account
-
-Go to <yourgithubaccount>.github.io in your browser.
-
-Holy smokes!
-
-Edit one line of index.html and commit/push.
-
-Move the resume html in there as well. Repeat. 
-
-## Your turn
-
-Move the styles files into the repo and publish to the web.
-
-Congratulations :)
-
-
-
-IF there is more time, introduce Semantic UI
