@@ -368,7 +368,6 @@ function greet(name){
 //in the function, its like a separate environment. this is called scope.
 
 
-
 ```
 
 
@@ -473,9 +472,23 @@ JavaScript Statements use a set of operators
 - `||`
 - `!`
 
-# For and While loops
+
+
+## Bouncer lab
+
+show one with an if/else, then do one with just returning the expression, then with two arguments
+
+
+
+
+
+# For and While loops OPTIONAL
 
 There is a handy way to loop through arbitrary data.
+
+
+
+
 
 ### for loops
 
