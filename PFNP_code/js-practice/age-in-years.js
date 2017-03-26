@@ -13,7 +13,9 @@ function myAge( ageNow, numYears ) {
   let sum = ageNow + numYears;
   return sum;
 }
-myAge(32, 7)
+
+var lastBirthdayIWillEverCelebrate = myAge(32, 7);
+
 
 
 

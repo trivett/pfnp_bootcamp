@@ -10,3 +10,5 @@ function celsiusToFarenheit(celsius){
 }
 
 var farenheitBoilingPoint = celsiusToFarenheit(100);
+
+farenheitBoilingPoint // undefined

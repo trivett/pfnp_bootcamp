@@ -37,4 +37,4 @@ var middleName "Paul"
 // 5. redefine the string in step 3. so that it now shows
 // [FIRST NAME][SPACE][MIDDLE NAME][SPACE][LAST NAME]
 
-var fullName = firstName + " "+ middleName + " " + lastName;
+fullName = firstName + " "+ middleName + " " + lastName;

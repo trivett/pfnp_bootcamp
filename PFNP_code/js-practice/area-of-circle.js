@@ -11,6 +11,7 @@ A = π * r2, where is π is Pi and r is the radius squared
 
 
 function areaOfaCircle(radius){
-
-
-}    
+  let area = 3.14 * (radius**2);
+  return area;
+}
+areaOfaCircle(4)
