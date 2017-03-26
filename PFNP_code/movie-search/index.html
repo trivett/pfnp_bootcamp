@@ -13,10 +13,8 @@
   <div class="two wide column"></div> <!-- spacer  -->
 
   <div class="eight wide column content">
-
-
     <h1>Search the Open Movie Database (OMDB)</h1>
-    <form id="movie-search-form" class="ui search">
+    <form id="movie-search-form" class="ui search" onsubmit="return false;">
       <input type="text" name="query" placeholder="Type in the title of a film" class="prompt">
     </form>
 
@@ -28,11 +26,9 @@
         <li>Actors: <span id="actors"></span></li>
       </ul>
     </div>
-
     <div class="error">
       Sorry, an error has occurred. Try again.
     </div>
-
   </div>
 
   <!-- First load jQuery -->

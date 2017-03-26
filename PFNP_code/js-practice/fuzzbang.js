@@ -6,3 +6,32 @@
 // 4. Finally, if a number is divisible by both 3 and 5, print 'fuzzbang'.
 
 // Good luck!
+
+for(var i = 1; i<=100; i++){
+  if (i % 3 === 0 && i % 5 === 0){
+    console.log("fuzzbang");
+  } else if (i % 5 === 0){
+    console.log("bang");
+  } else if (i % 3 === 0){
+    console.log("fuzz");
+  } else {
+    console.log(i);
+  }
+}
+
+
+1
+2
+fuzz
+4
+bang
+fuzz
+7
+8
+fuzz
+bang
+11
+fuzz
+13
+14
+fuzzbang
